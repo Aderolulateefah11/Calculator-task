@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>simple calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <div class="box">
+        <div class="calculator">
+        
+            <input type="text" id="display" >
+        
+            </div>
+            <div class="keys">
+                <button onclick="ClearDisplay()" class="clear">C</button>
+                <button onclick="percent('%')">%</button>
+                <button onclick=" ClearDisplay1('x')">x</button>
+                <button onclick="number('/')">/</button>
+
+                <button onclick="number('7')">7</button>
+                <button onclick="number('8')">8</button>
+                <button onclick="number('9')">9</button>
+                <button onclick="number('+')">+</button>
+                <button onclick="number('4')">4</button>
+                <button onclick="number('5')">5</button>
+                <button onclick="number('6')">6</button>
+                <button onclick="number('-')">-</button>
+                <button onclick="number('1')">1</button>
+                <button onclick="number('2')">2</button>
+                <button onclick="number('3')">3</button>
+                <button onclick="number('*')">*</button>
+                <button onclick="number('0')">0</button>
+                <button onclick="number('.')">.</button>
+                <button onclick="number('/')">/</button>
+                <button onclick="result()" class="equal">=</button>
+              
+
+            </div>
+        </div>
+        <script src="calculator.js"></script>
+    </body>
+</html>
